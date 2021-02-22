@@ -41,6 +41,7 @@ export const ShopView = () => {
             <h3>Height: {starwarsData?.data?.height}</h3>
             <button onClick={() => makeSureCountWillNeverGoBelowValue1()}>Get previous character:</button>
             <button onClick={() => setCount(count + 1)}>Get next character:</button>
+            <button onClick={() => console.log(starwarsData)}>TestAPI</button>
 
 
         </div>
